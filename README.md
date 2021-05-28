@@ -2,7 +2,7 @@
 
 Software I use on a Xorg based GNU/linux distribution:
 - Coding: i3, st, urxvt, zsh, tmux, vim, emacs, evil, org, git, mutt
-- Productivity: mpv, zathura, sxiv, GNU-Stow, Lf, thunar, pcmanfm, xfce
+- Productivity: mpv, zathura, sxiv, GNU-Stow, Lf, pcmanfm, xfce
 
 ## TODO:
 - oh-my-zsh import with git submodules
