@@ -25,7 +25,7 @@ so %
 PlugInstall
 ```
 
-The ```so %``` `sources the configuration file, while ```PlugInstall``` `installs the plugins.
+The ***so %*** sources the configuration file, while ***PlugInstall*** installs the plugins.
 
 ## How to use my i3 configuration
 
