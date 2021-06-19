@@ -36,7 +36,7 @@ The $Mod key is ALT on my operating system:
 ```
 Mod+Shift+Enter
 ```
-- opens the terminal
+- terminal
 ```
 Mod+Enter
 ```
