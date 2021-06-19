@@ -4,7 +4,7 @@ Software I use on a Xorg based GNU/linux distribution:
 - Coding: i3, st, urxvt, zsh, tmux, vim, emacs, evil, org, git, mutt
 - Productivity: mpv, zathura, sxiv, mpd/ncmpcpp, GNU-Stow, Lf, pcmanfm, xfce
 
-## TODO:
+## TODO (not sure about this):
 - oh-my-zsh import with git submodules
 
 ## How to install
@@ -25,7 +25,25 @@ so %
 PlugInstall
 ```
 
-The ```so %``` sources the configuration file, while ```PlugInstall``` installs the plugins.
+The ```so %``` `sources the configuration file, while ```PlugInstall``` `installs the plugins.
+
+## How to use my i3 configuration
+
+Essentially, it's the default configuration but with vim-like keybindings to hop among
+windows and some shortcuts to pop up the browser, the terminal and a GUI-based file manager.
+The $Mod key is ALT on my operating system:
+- brave-browser
+```
+Mod+Shift+Enter
+```
+- opens the terminal
+```
+Mod+Enter
+```
+- pcmanfm (a GUI-based minimal file manager)
+```
+Mod+Shift+f
+```
 
 ## How to use my tmux configuration
 
