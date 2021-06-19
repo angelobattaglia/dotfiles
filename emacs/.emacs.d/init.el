@@ -1,20 +1,21 @@
-;; Emacs config github.com/angelobattaglia
-(setq inhibit-startup-message t)
-
+(setq inhibit-startup-message t) ;; Disable the startup message
 (scroll-bar-mode -1) ;; Disable visible scrollbar
-(toll-bar-mode -1) ;; Disable the toolbar
-(tooltip-mod -1) ;; Disable tooltips
-(set-fringe-mode 10) ;; Give me some breathing room
+(tool-bar-mode -1) ;; Disable the toolbar
+(tooltip-mode -1) ;; Disable tooltips
+(set-fringe-mode 10) ;; Give some breathing room
 
-(menu-bar-mode -1)
+(menu-bar-mode -1) ;; Disable the menu bar
 
-;; Set up the visible bell
+(require 'package)
+(setq package-enable-at-startup nil)
+(setq package-archives
+      '(("melpa" . "https://melpa.org/packages/")
+        	("org" . "https://orgmode.org/elpa")
+        	("elpa"."https://elpa.gnu.org/packages")))
 
-(setq visible-bell t)
-        
+(package-initialize)
+(unless package-archive-contents
+  (package-refresh-contents))
+
 ;; 
 
-(set-face-attribute `default nil :font "Fira Code Retina" :height 280) 
-
-;;(load-theme
-;; 16:41 syst craft n1
